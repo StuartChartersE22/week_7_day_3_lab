@@ -1,6 +1,7 @@
 package Characters.Instances;
 
 import Characters.ClassTypes.ICaster;
+import Items.Instances.Fire;
 import Items.ItemType.Spell;
 import Characters.ICharacter;
 import Items.ItemType.Weapon;
@@ -13,7 +14,7 @@ public class Wizard implements ICaster {
     private int health;
     int magic;
     boolean enemy;
-    ArrayList<Weapon> spells;
+    ArrayList<Spell> spells;
     int wallet;
     String name;
 
@@ -29,7 +30,7 @@ public class Wizard implements ICaster {
 
     @Override
     public void cast(Spell spell, ICharacter targetCharacter) {
-
+        targetCharacter.reduceHealth(spell.getDamage());
     }
 
     @Override
@@ -40,6 +41,11 @@ public class Wizard implements ICaster {
     @Override
     public void replenishMagic(int amount) {
         this.magic += amount;
+    }
+
+    @Override
+    public void learnSpell(Spell spell) {
+        this.spells.add(spell);
     }
 
     @Override
@@ -80,5 +86,9 @@ public class Wizard implements ICaster {
     @Override
     public String getName() {
         return this.name;
+    }
+
+    public ArrayList<Spell> getSpells() {
+        return this.spells;
     }
 }

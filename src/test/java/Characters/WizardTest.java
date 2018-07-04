@@ -20,9 +20,18 @@ public class WizardTest {
         fire = new Fire("Fire", 7, 5);
     }
 
-//    @Test
-//    public void cast() {
-//    }
+    @Test
+    public void canLearnSpell(){
+        wizard.learnSpell(fire);
+        assertEquals(1, wizard.getSpells().size());
+    }
+
+    @Test
+    public void cast() {
+        wizard.learnSpell(fire);
+        wizard.cast(fire, wizard2);
+        assertEquals(13, wizard2.getHealth());
+    }
 
     @Test
     public void remainingMagic() {

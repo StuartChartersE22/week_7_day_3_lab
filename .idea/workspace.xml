@@ -2,83 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9d56cb-d1c7-4d9f-97a8-272351e71739" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/Characters/ClassTypes/ICaster.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/Characters/ClassTypes/IHealer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/Characters/ClassTypes/IMelee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/Characters/Instances/Cleric.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/Characters/Instances/Warlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/Characters/Instances/Wizard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Characters/DwarfTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Characters/WizardTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Items/AxeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Items/FireTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Items/HerbTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Items/LongSwordTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Items/PoisonTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Items/PotionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Items/SmallSwordTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/Items/ThunderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Characters/Instances/Cleric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Characters/Instances/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/ClassTypes/ICaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/ClassTypes/IHealer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/ClassTypes/IMelee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/ICharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Characters/ICharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/Instances/Barbarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Characters/Instances/Barbarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/Instances/Cleric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/Instances/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Characters/Instances/Dwarf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/Instances/Warlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/Instances/Wizard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/AxeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Character/Instances/DwarfTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Character/Instances/WizardTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ClericTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/EnvironmentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/FireTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/HerbTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Items/Instances/LongSwordTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Items/Instances/SmallSwordTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/MoneyBagTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PoisonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PotionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/RoomTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/SpellTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ThunderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/WarlockTEst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/WeaponTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/WizardTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character/ClassTypes/ICaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/ClassTypes/ICaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character/ClassTypes/IHealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/ClassTypes/IHealer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character/ClassTypes/IMelee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/ClassTypes/IMelee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character/ICharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/ICharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character/Instances/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Instances/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character/Instances/Cleric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character/Instances/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Instances/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character/Instances/Warlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character/Instances/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Instances/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AxeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/AxeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Character/Instances/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Characters/DwarfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Character/Instances/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Characters/WizardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClericTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EnvironmentTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FireTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/FireTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HerbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/HerbTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LongSwordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/LongSwordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MoneyBagTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PoisonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/PoisonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PotionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/PotionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SmallSwordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/SmallSwordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpellTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThunderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/ThunderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WarlockTEst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WeaponTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WizardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/ClassTypes/ICaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/ClassTypes/ICaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Instances/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Instances/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Characters/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Characters/WizardTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -100,8 +26,8 @@
       <file leaf-file-name="WizardTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Characters/WizardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="244">
+              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="e#540#541#0" expanded="true" />
                 <element signature="e#597#598#0" expanded="true" />
@@ -125,17 +51,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ICaster.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Characters/ClassTypes/ICaster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Wizard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Instances/Wizard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="1204">
+              <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#821#822#0" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
                 <element signature="e#914#915#0" expanded="true" />
                 <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
                 <element signature="e#965#966#0" expanded="true" />
                 <element signature="e#999#1000#0" expanded="true" />
                 <element signature="e#1057#1058#0" expanded="true" />
@@ -152,6 +89,8 @@
                 <element signature="e#1520#1521#0" expanded="true" />
                 <element signature="e#1450#1451#0" expanded="true" />
                 <element signature="e#1482#1483#0" expanded="true" />
+                <element signature="e#1793#1794#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -501,8 +440,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Character/Instances/WizardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Character/Instances/Wizard.java" />
         <option value="$PROJECT_DIR$/src/test/java/WizardTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Characters/WizardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Instances/Wizard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Characters/ClassTypes/ICaster.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Characters/WizardTest.java" />
       </list>
     </option>
   </component>
@@ -708,29 +648,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DwarfTest.draw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Characters" />
-      <option name="MAIN_CLASS_NAME" value="Characters.DwarfTest" />
-      <option name="METHOD_NAME" value="draw" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="DwarfTest.sheath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLab_test" />
       <extension name="coverage">
@@ -768,6 +685,29 @@
       <option name="MAIN_CLASS_NAME" value="Characters.WizardTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WizardTest.canLearnSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Characters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Characters" />
+      <option name="MAIN_CLASS_NAME" value="Characters.WizardTest" />
+      <option name="METHOD_NAME" value="canLearnSpell" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -816,19 +756,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DwarfTest.draw" />
       <item itemvalue="JUnit.DwarfTest.sheath" />
       <item itemvalue="JUnit.DwarfTest.attack" />
       <item itemvalue="JUnit.WizardTest" />
       <item itemvalue="JUnit.All in FantasyLab_test" />
+      <item itemvalue="JUnit.WizardTest.canLearnSpell" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WizardTest" />
+        <item itemvalue="JUnit.WizardTest.canLearnSpell" />
         <item itemvalue="JUnit.All in FantasyLab_test" />
         <item itemvalue="JUnit.DwarfTest.attack" />
         <item itemvalue="JUnit.DwarfTest.sheath" />
-        <item itemvalue="JUnit.DwarfTest.draw" />
       </list>
     </recent_temporary>
   </component>
@@ -846,9 +786,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DwarfTest_draw - 2018.07.04 at 14h 40m 50s.xml">
-      <configuration name="DwarfTest.draw" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DwarfTest_sheath - 2018.07.04 at 14h 42m 37s.xml">
       <configuration name="DwarfTest.sheath" configurationId="JUnit" />
     </history-entry>
@@ -874,6 +811,9 @@
       <configuration name="WizardTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WizardTest - 2018.07.04 at 15h 23m 34s.xml">
+      <configuration name="WizardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest - 2018.07.04 at 15h 26m 39s.xml">
       <configuration name="WizardTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1233,16 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Characters/ClassTypes/ICaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Instances/Dwarf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1354,16 +1284,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Characters/ClassTypes/ICaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Instances/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="1204">
+          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#821#822#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#914#915#0" expanded="true" />
             <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
             <element signature="e#965#966#0" expanded="true" />
             <element signature="e#999#1000#0" expanded="true" />
             <element signature="e#1057#1058#0" expanded="true" />
@@ -1380,14 +1319,16 @@
             <element signature="e#1520#1521#0" expanded="true" />
             <element signature="e#1450#1451#0" expanded="true" />
             <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Characters/WizardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="244">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#540#541#0" expanded="true" />
             <element signature="e#597#598#0" expanded="true" />
