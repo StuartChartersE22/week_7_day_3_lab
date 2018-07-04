@@ -1,16 +1,13 @@
 package Characters.Instances;
 
 import Characters.ClassTypes.ICaster;
-import Items.Instances.Fire;
 import Items.ItemType.Spell;
 import Characters.ICharacter;
-import Items.ItemType.Weapon;
 
 import java.util.ArrayList;
 
 public class Wizard implements ICaster {
 
-    private Weapon activeSpell;
     private int health;
     int magic;
     boolean enemy;
@@ -20,7 +17,6 @@ public class Wizard implements ICaster {
 
     public Wizard(String name, int health, int magic, boolean enemy, int wallet){
         this.wallet = wallet;
-        this.activeSpell = null;
         this.magic = magic;
         this.enemy = enemy;
         this.health = health;
