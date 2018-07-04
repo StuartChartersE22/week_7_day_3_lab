@@ -1,6 +1,6 @@
 package Items;
 
-import Items.Instances.Potion;
+import Items.Instances.HealingItems.Potion;
 import org.junit.Before;
 import org.junit.Test;
 

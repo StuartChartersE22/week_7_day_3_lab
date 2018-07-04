@@ -1,4 +1,4 @@
-package Items.Instances;
+package Items.Instances.Spells;
 
 import Items.ItemType.Spell;
 

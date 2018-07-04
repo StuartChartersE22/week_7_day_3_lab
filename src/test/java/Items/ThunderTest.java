@@ -1,6 +1,6 @@
 package Items;
 
-import Items.Instances.Thunder;
+import Items.Instances.Spells.Thunder;
 import org.junit.Before;
 import org.junit.Test;
 

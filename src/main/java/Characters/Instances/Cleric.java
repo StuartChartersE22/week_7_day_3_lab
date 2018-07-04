@@ -9,11 +9,10 @@ import java.util.ArrayList;
 public class Cleric implements IHealer {
 
     private int health;
-    int magic;
-    boolean enemy;
-    ArrayList<HealingItem> items;
-    int wallet;
-    String name;
+    private boolean enemy;
+    private ArrayList<HealingItem> items;
+    private int wallet;
+    private String name;
 
     public Cleric(String name, int health, boolean enemy, int wallet){
         this.wallet = wallet;
@@ -51,7 +50,7 @@ public class Cleric implements IHealer {
 
     @Override
     public boolean isEnemy() {
-        return false;
+        return this.enemy;
     }
 
     @Override
@@ -74,6 +73,7 @@ public class Cleric implements IHealer {
         return this.name;
     }
 
+    @Override
     public ArrayList<HealingItem> getItems(){
         return this.items;
     }

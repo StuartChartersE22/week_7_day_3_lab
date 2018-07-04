@@ -18,4 +18,8 @@ public class MoneyBag implements ITreasure {
         properties.put("Value" , this.value);
         return properties;
     }
+
+    public int getValue() {
+        return this.value;
+    }
 }

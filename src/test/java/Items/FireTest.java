@@ -1,6 +1,6 @@
 package Items;
 
-import Items.Instances.Fire;
+import Items.Instances.Spells.Fire;
 import org.junit.Before;
 import org.junit.Test;
 

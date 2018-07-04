@@ -10,11 +10,11 @@ public class Dwarf implements IMelee {
 
     private Weapon activeWeapon;
     private int health;
-    int carryingCapacity;
-    boolean enemy;
-    ArrayList<Weapon> weapons;
-    int wallet;
-    String name;
+    private int carryingCapacity;
+    private boolean enemy;
+    private ArrayList<Weapon> weapons;
+    private int wallet;
+    private String name;
 
     public Dwarf(String name, int health, boolean enemy, int wallet){
         this.wallet = wallet;
@@ -55,10 +55,12 @@ public class Dwarf implements IMelee {
 
     }
 
+    @Override
     public ArrayList<Weapon> getWeapons() {
         return weapons;
     }
 
+    @Override
     public Weapon getActiveWeapon() {
         return this.activeWeapon;
     }

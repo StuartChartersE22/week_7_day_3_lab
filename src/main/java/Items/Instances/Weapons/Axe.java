@@ -1,4 +1,4 @@
-package Items.Instances;
+package Items.Instances.Weapons;
 
 import Items.ItemType.Weapon;
 

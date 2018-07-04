@@ -9,11 +9,11 @@ import java.util.ArrayList;
 public class Wizard implements ICaster {
 
     private int health;
-    int magic;
-    boolean enemy;
-    ArrayList<Spell> spells;
-    int wallet;
-    String name;
+    private int magic;
+    private boolean enemy;
+    private ArrayList<Spell> spells;
+    private int wallet;
+    private String name;
 
     public Wizard(String name, int health, int magic, boolean enemy, int wallet){
         this.wallet = wallet;
@@ -84,6 +84,7 @@ public class Wizard implements ICaster {
         return this.name;
     }
 
+    @Override
     public ArrayList<Spell> getSpells() {
         return this.spells;
     }

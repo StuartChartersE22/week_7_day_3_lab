@@ -1,6 +1,6 @@
 package Items;
 
-import Items.Instances.Poison;
+import Items.Instances.Spells.Poison;
 import org.junit.Before;
 import org.junit.Test;
 

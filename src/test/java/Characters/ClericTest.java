@@ -1,7 +1,7 @@
 package Characters;
 
 import Characters.Instances.Cleric;
-import Items.Instances.Herb;
+import Items.Instances.HealingItems.Herb;
 import org.junit.Before;
 import org.junit.Test;
 

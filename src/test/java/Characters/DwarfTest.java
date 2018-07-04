@@ -1,7 +1,7 @@
 package Characters;
 
 import Characters.Instances.Dwarf;
-import Items.Instances.Axe;
+import Items.Instances.Weapons.Axe;
 import org.junit.Before;
 import org.junit.Test;
 

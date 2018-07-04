@@ -1,6 +1,6 @@
 package Items;
 
-import Items.Instances.LongSword;
+import Items.Instances.Weapons.LongSword;
 import org.junit.Before;
 import org.junit.Test;
 
