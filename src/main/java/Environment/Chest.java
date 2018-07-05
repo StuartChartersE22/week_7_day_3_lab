@@ -2,7 +2,6 @@ package Environment;
 
 import Items.ITreasure;
 import Items.Instances.MoneyBag;
-import Items.Instances.Weapons.Axe;
 import Items.ItemType.HealingItem;
 import Items.ItemType.Spell;
 import Items.ItemType.Weapon;
@@ -67,7 +66,10 @@ public class Chest {
     }
 
     public HashMap<String,Integer> inspectItem(ITreasure item) {
-        return item.inspect();
+        if(showContents().contains(item)){
+            return item.inspect();
+        }
+        return null;
     }
 
     public <I extends ITreasure> I removeItem(I item){

@@ -92,13 +92,15 @@ public class ChestTest {
 
     @Test
     public void canInspectItem(){
+        chest.setWeapons(weapons);
         assertEquals(axeProperties, chest.inspectItem(axe));
     }
 
     @Test
     public void canRemoveSpecificItem(){
         chest.setWeapons(weapons);
-        assertEquals(axe, chest.removeItem(axe));
+        Axe removedItem = chest.removeItem(axe);
+        assertEquals(axe, removedItem);
         assertEquals(0, chest.showContents().size());
     }
 }
