@@ -1,7 +1,5 @@
 package Characters;
 
-import Items.ITreasure;
-
 public abstract class Character implements ICharacter {
 
     private int health;

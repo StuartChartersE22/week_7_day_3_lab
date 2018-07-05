@@ -1,6 +1,6 @@
-package Items;
+package Items.WeaponTests;
 
-import Items.Instances.Weapons.Axe;
+import Items.Instances.Weapons.LongSword;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,42 +8,42 @@ import java.util.HashMap;
 
 import static org.junit.Assert.*;
 
-public class AxeTest {
+public class LongSwordTest {
 
-    private Axe axe;
+    private LongSword longSword;
     private HashMap<String, Integer> properties = new HashMap<>();
 
     @Before
     public void setUp() {
-        axe = new Axe("Choppy", 20, 10);
+        longSword = new LongSword("Choppy", 20, 8);
         properties.put("Weight" , 20);
-        properties.put("Damage" , 10);
+        properties.put("Damage" , 8);
         properties.put("Number of hands used" , 2);
     }
 
     @Test
     public void canGetName() {
-        assertEquals("Choppy", axe.getName());
+        assertEquals("Choppy", longSword.getName());
     }
 
     @Test
     public void canGetWeight() {
-        assertEquals(20, axe.getWeight());
+        assertEquals(20, longSword.getWeight());
     }
 
     @Test
     public void canGetDamage() {
-        assertEquals(10, axe.getDamage());
+        assertEquals(8, longSword.getDamage());
     }
 
     @Test
     public void canGetNumberOfHandsWieldedWith() {
-        assertEquals(2, axe.getHandWield());
+        assertEquals(2, longSword.getHandWield());
     }
 
     @Test
     public void canInspect() {
-        assertEquals(properties, axe.inspect());
+        assertEquals(properties, longSword.inspect());
     }
 
 

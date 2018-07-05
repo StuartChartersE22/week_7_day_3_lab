@@ -1,4 +1,4 @@
-package Items;
+package Items.SpellTests;
 
 import Items.Instances.Spells.Poison;
 import org.junit.Before;

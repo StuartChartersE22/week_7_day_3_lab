@@ -1,4 +1,4 @@
-package Items;
+package Items.HealingItemTests;
 
 import Items.Instances.HealingItems.Herb;
 import org.junit.Before;

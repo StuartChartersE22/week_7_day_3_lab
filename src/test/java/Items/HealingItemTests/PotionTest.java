@@ -1,4 +1,4 @@
-package Items;
+package Items.HealingItemTests;
 
 import Items.Instances.HealingItems.Potion;
 import org.junit.Before;
