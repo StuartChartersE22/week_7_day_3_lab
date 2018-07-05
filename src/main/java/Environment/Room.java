@@ -1,23 +1,17 @@
 package Environment;
 
-import Characters.ClassTypes.ICaster;
-import Characters.ClassTypes.IHealer;
-import Characters.ClassTypes.IMelee;
-
-import java.util.ArrayList;
+import Characters.Party;
 
 public class Room {
 
-    private ArrayList<IMelee> melees;
-    private ArrayList<ICaster> casters;
-    private ArrayList<IHealer> healers;
+    private Party allysParty;
+    private Party enemysParty;
     private boolean playersTurn;
     private Chest chest;
 
-    public Room(Chest chest){
-        this.melees = new ArrayList<>();
-        this.casters = new ArrayList<>();
-        this.healers = new ArrayList<>();
+    public Room(Chest chest, Party allysParty, Party enemysParty){
+        this.allysParty = allysParty;
+        this.enemysParty = enemysParty;
         playersTurn = true;
         this.chest = chest;
     }

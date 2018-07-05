@@ -11,8 +11,8 @@ public class Wizard extends Characters.Character implements ICaster {
     private int magic;
     private ArrayList<Spell> spells;
 
-    public Wizard(String name, int health, int magic, boolean enemy, int wallet){
-        super(name, health, enemy, wallet);
+    public Wizard(String name, int health, int magic, int wallet){
+        super(name, health, wallet);
         this.magic = magic;
         this.spells = new ArrayList<>();
     }

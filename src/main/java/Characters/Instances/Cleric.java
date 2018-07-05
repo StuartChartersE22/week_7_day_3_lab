@@ -10,8 +10,8 @@ public class Cleric extends Characters.Character implements IHealer {
 
     private ArrayList<HealingItem> items;
 
-    public Cleric(String name, int health, boolean enemy, int wallet){
-        super(name, health, enemy, wallet);
+    public Cleric(String name, int health, int wallet){
+        super(name, health, wallet);
         this.items = new ArrayList<>();
     }
 

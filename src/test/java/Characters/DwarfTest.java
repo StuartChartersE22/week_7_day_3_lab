@@ -15,8 +15,8 @@ public class DwarfTest {
 
     @Before
     public void setUp() {
-        dwarf = new Dwarf("Dopey", 10, false, 20);
-        dwarf2 = new Dwarf("Happy", 10, true, 20);
+        dwarf = new Dwarf("Dopey", 10, 20);
+        dwarf2 = new Dwarf("Happy", 10, 20);
         axe = new Axe("Choppy", 20, 10);
     }
 
@@ -70,11 +70,6 @@ public class DwarfTest {
     public void increaseHealth() {
         dwarf.heal(5);
         assertEquals(15, dwarf.getHealth());
-    }
-
-    @Test
-    public void isEnemy() {
-        assertFalse(dwarf.isEnemy());
     }
 
     @Test

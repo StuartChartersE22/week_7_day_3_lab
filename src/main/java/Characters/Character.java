@@ -3,14 +3,12 @@ package Characters;
 public abstract class Character implements ICharacter {
 
     private int health;
-    private boolean enemy;
     private int wallet;
     private String name;
     private int maxHealth;
 
-    public Character(String name, int maxHealth, boolean enemy, int wallet){
+    public Character(String name, int maxHealth, int wallet){
         this.wallet = wallet;
-        this.enemy = enemy;
         this.health = maxHealth;
         this.maxHealth = maxHealth;
         this.name = name;
@@ -36,11 +34,6 @@ public abstract class Character implements ICharacter {
         if(this.health > maxHealth){
             this.health = maxHealth;
         }
-    }
-
-    @Override
-    public boolean isEnemy() {
-        return this.enemy;
     }
 
     @Override

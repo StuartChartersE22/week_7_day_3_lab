@@ -13,8 +13,8 @@ public class Dwarf extends Characters.Character implements IMelee {
     private ArrayList<Weapon> weapons;
 
 
-    public Dwarf(String name, int health, boolean enemy, int wallet){
-        super(name, health, enemy, wallet);
+    public Dwarf(String name, int health, int wallet){
+        super(name, health, wallet);
         this.activeWeapon = null;
         this.carryingCapacity = 200;
         this.weapons = new ArrayList<>();

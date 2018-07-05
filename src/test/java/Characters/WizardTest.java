@@ -15,8 +15,8 @@ public class WizardTest {
 
     @Before
     public void setUp() {
-        wizard = new Wizard("Merlin", 20, 30, false, 40);
-        wizard2 = new Wizard("Merlin", 20, 30, true, 40);
+        wizard = new Wizard("Merlin", 20, 30, 40);
+        wizard2 = new Wizard("Merlin", 20, 30, 40);
         fire = new Fire("Fire", 7, 5);
     }
 
@@ -66,11 +66,6 @@ public class WizardTest {
     public void cantHealAboveMaxHealth() {
         wizard.heal(5);
         assertEquals(20, wizard.getHealth());
-    }
-
-    @Test
-    public void isEnemy() {
-        assertFalse(wizard.isEnemy());
     }
 
     @Test

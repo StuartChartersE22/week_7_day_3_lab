@@ -15,8 +15,8 @@ public class ClericTest {
 
     @Before
     public void setUp() {
-        cleric = new Cleric("John", 10, false, 300);
-        cleric2 = new Cleric("Andrew", 10, false, 300);
+        cleric = new Cleric("John", 10, 300);
+        cleric2 = new Cleric("Andrew", 10, 300);
         herb = new Herb("Herb", 8, 6);
     }
 
@@ -49,11 +49,6 @@ public class ClericTest {
     public void increaseHealth() {
         cleric.heal(5);
         assertEquals(15, cleric.getHealth());
-    }
-
-    @Test
-    public void isEnemy() {
-        assertFalse(cleric.isEnemy());
     }
 
     @Test
