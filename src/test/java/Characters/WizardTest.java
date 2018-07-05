@@ -56,9 +56,16 @@ public class WizardTest {
     }
 
     @Test
-    public void increaseHealth() {
+    public void healHealth() {
+        wizard.reduceHealth(5);
         wizard.heal(5);
-        assertEquals(25, wizard.getHealth());
+        assertEquals(20, wizard.getHealth());
+    }
+
+    @Test
+    public void cantHealAboveMaxHealth() {
+        wizard.heal(5);
+        assertEquals(20, wizard.getHealth());
     }
 
     @Test

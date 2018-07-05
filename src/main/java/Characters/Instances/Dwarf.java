@@ -9,9 +9,7 @@ import java.util.ArrayList;
 public class Dwarf extends Characters.Character implements IMelee {
 
     private Weapon activeWeapon;
-
     private int carryingCapacity;
-
     private ArrayList<Weapon> weapons;
 
 
@@ -24,8 +22,10 @@ public class Dwarf extends Characters.Character implements IMelee {
 
     @Override
     public void draw(Weapon weapon) {
+        if(activeWeapon != null){
+            sheath();
+        }
         this.activeWeapon = weapon;
-
     }
 
     @Override
@@ -47,13 +47,33 @@ public class Dwarf extends Characters.Character implements IMelee {
 
     @Override
     public void pickUpWeapon(Weapon weapon) {
-        this.weapons.add(weapon);
+        if(totalWeightCarried() + weapon.getWeight() <= this.carryingCapacity){
+            this.weapons.add(weapon);
+            sheath();
+            activeWeapon = weapon;
+        }
+    }
 
+    @Override
+    public Weapon dropActiveWeapon(){
+        Weapon droppedWeapon = activeWeapon;
+        weapons.remove(activeWeapon);
+        activeWeapon = null;
+        return droppedWeapon;
     }
 
     @Override
     public ArrayList<Weapon> getWeapons() {
         return weapons;
+    }
+
+    @Override
+    public int totalWeightCarried(){
+        int totalWeight = 0;
+        for(Weapon weapon : weapons){
+            totalWeight += weapon.getWeight();
+        }
+        return totalWeight;
     }
 
     @Override

@@ -1,5 +1,7 @@
 package Characters;
 
+import Items.ITreasure;
+
 public abstract class Character implements ICharacter {
 
     private int health;
@@ -64,4 +66,5 @@ public abstract class Character implements ICharacter {
     public String getName() {
         return this.name;
     }
+
 }
