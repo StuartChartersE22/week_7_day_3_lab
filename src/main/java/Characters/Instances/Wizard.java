@@ -6,22 +6,15 @@ import Characters.ICharacter;
 
 import java.util.ArrayList;
 
-public class Wizard implements ICaster {
+public class Wizard extends Characters.Character implements ICaster {
 
-    private int health;
     private int magic;
-    private boolean enemy;
     private ArrayList<Spell> spells;
-    private int wallet;
-    private String name;
 
     public Wizard(String name, int health, int magic, boolean enemy, int wallet){
-        this.wallet = wallet;
+        super(name, health, enemy, wallet);
         this.magic = magic;
-        this.enemy = enemy;
-        this.health = health;
         this.spells = new ArrayList<>();
-        this.name = name;
     }
 
     @Override
@@ -42,46 +35,6 @@ public class Wizard implements ICaster {
     @Override
     public void learnSpell(Spell spell) {
         this.spells.add(spell);
-    }
-
-    @Override
-    public int getHealth() {
-        return this.health;
-    }
-
-    @Override
-    public void reduceHealth(int damage) {
-        this.health -= damage;
-    }
-
-    @Override
-    public void increaseHealth(int heal) {
-        this.health += heal;
-    }
-
-    @Override
-    public boolean isEnemy() {
-        return this.enemy;
-    }
-
-    @Override
-    public int getWallet() {
-        return this.wallet;
-    }
-
-    @Override
-    public void pay(int cost) {
-        this.wallet -= cost;
-    }
-
-    @Override
-    public void receiveMoney(int amount) {
-        this.wallet += amount;
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
     }
 
     @Override

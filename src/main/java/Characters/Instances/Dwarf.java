@@ -6,24 +6,20 @@ import Characters.ICharacter;
 
 import java.util.ArrayList;
 
-public class Dwarf implements IMelee {
+public class Dwarf extends Characters.Character implements IMelee {
 
     private Weapon activeWeapon;
-    private int health;
+
     private int carryingCapacity;
-    private boolean enemy;
+
     private ArrayList<Weapon> weapons;
-    private int wallet;
-    private String name;
+
 
     public Dwarf(String name, int health, boolean enemy, int wallet){
-        this.wallet = wallet;
+        super(name, health, enemy, wallet);
         this.activeWeapon = null;
         this.carryingCapacity = 200;
-        this.enemy = enemy;
-        this.health = health;
         this.weapons = new ArrayList<>();
-        this.name = name;
     }
 
     @Override
@@ -65,46 +61,9 @@ public class Dwarf implements IMelee {
         return this.activeWeapon;
     }
 
-    @Override
-    public int getHealth() {
-        return this.health;
-    }
 
-    @Override
-    public void reduceHealth(int damage) {
-        this.health -= damage;
 
-    }
 
-    @Override
-    public void increaseHealth(int heal) {
-    this.health += heal;
-    }
 
-    @Override
-    public boolean isEnemy() {
-        return this.enemy;
-    }
 
-    @Override
-    public int getWallet() {
-        return this.wallet;
-    }
-
-    @Override
-    public void pay(int cost) {
-        this.wallet -= cost;
-
-    }
-
-    @Override
-    public void receiveMoney(int amount) {
-        this.wallet += amount;
-
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
-    }
 }
