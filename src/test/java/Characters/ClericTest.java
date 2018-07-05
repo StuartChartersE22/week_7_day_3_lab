@@ -23,7 +23,7 @@ public class ClericTest {
     @Test
     public void heal() {
         cleric.pickUpHealingItem(herb);
-        cleric.heal(herb, cleric2);
+        cleric.healCharacter(herb, cleric2);
         assertEquals(18, cleric2.getHealth());
         assertEquals(0, cleric.getItems().size());
     }
@@ -47,7 +47,7 @@ public class ClericTest {
 
     @Test
     public void increaseHealth() {
-        cleric.increaseHealth(5);
+        cleric.heal(5);
         assertEquals(15, cleric.getHealth());
     }
 

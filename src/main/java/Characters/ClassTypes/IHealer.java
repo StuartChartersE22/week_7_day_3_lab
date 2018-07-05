@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public interface IHealer extends ICharacter {
 
-    void heal(HealingItem item, ICharacter character);
+    void healCharacter(HealingItem item, ICharacter character);
     void pickUpHealingItem(HealingItem item);
     ArrayList<HealingItem> getItems();
 }

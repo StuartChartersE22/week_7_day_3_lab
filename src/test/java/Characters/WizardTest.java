@@ -57,7 +57,7 @@ public class WizardTest {
 
     @Test
     public void increaseHealth() {
-        wizard.increaseHealth(5);
+        wizard.heal(5);
         assertEquals(25, wizard.getHealth());
     }
 

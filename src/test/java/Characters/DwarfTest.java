@@ -68,7 +68,7 @@ public class DwarfTest {
 
     @Test
     public void increaseHealth() {
-        dwarf.increaseHealth(5);
+        dwarf.heal(5);
         assertEquals(15, dwarf.getHealth());
     }
 

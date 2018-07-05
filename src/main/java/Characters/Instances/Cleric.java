@@ -15,9 +15,8 @@ public class Cleric extends Characters.Character implements IHealer {
         this.items = new ArrayList<>();
     }
 
-    @Override
-    public void heal(HealingItem item, ICharacter character) {
-        character.increaseHealth(item.getHealingPower());
+    public void healCharacter(HealingItem item, ICharacter character) {
+        character.heal(item.getHealingPower());
         items.remove(item);
     }
 

@@ -6,11 +6,13 @@ public abstract class Character implements ICharacter {
     private boolean enemy;
     private int wallet;
     private String name;
+    private int maxHealth;
 
-    public Character(String name, int health, boolean enemy, int wallet){
+    public Character(String name, int maxHealth, boolean enemy, int wallet){
         this.wallet = wallet;
         this.enemy = enemy;
-        this.health = health;
+        this.health = maxHealth;
+        this.maxHealth = maxHealth;
         this.name = name;
 
     }
@@ -23,12 +25,17 @@ public abstract class Character implements ICharacter {
     @Override
     public void reduceHealth(int damage) {
         this.health -= damage;
-
+        if(this.health < 0){
+            this.health = 0;
+        }
     }
 
     @Override
-    public void increaseHealth(int heal) {
+    public void heal(int heal) {
         this.health += heal;
+        if(this.health > maxHealth){
+            this.health = maxHealth;
+        }
     }
 
     @Override

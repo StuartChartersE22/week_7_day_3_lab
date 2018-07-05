@@ -4,7 +4,7 @@ public interface ICharacter {
 
     int getHealth();
     void reduceHealth(int damage);
-    void increaseHealth(int heal);
+    void heal(int heal);
     boolean isEnemy();
     int getWallet();
     void pay(int cost);
