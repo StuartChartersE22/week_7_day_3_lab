@@ -57,7 +57,12 @@ public class RoomTest {
     }
 
     @Test
-    public void canGetEmemysParty(){
+    public void canGetEnemysParty(){
         assertEquals(enemysParty, room.getEnemies());
+    }
+
+    @Test
+    public void canGetChest(){
+        assertEquals(chest, room.getChest());
     }
 }

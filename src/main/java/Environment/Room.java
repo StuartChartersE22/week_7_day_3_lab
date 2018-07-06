@@ -24,4 +24,8 @@ public class Room {
     public Party getEnemies() {
         return enemysParty;
     }
+
+    public Chest getChest() {
+        return chest;
+    }
 }
