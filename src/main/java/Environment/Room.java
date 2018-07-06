@@ -20,4 +20,8 @@ public class Room {
     public Party getAllies() {
         return allysParty;
     }
+
+    public Party getEnemies() {
+        return enemysParty;
+    }
 }

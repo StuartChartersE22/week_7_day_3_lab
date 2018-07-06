@@ -55,4 +55,9 @@ public class RoomTest {
     public void canGetAllysParty(){
         assertEquals(allysParty, room.getAllies());
     }
+
+    @Test
+    public void canGetEmemysParty(){
+        assertEquals(enemysParty, room.getEnemies());
+    }
 }
