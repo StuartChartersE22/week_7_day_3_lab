@@ -31,11 +31,13 @@ public class Party {
     }
 
     private <I extends ICharacter> void removeDeadCharacters(ArrayList<I> characters){
+        ArrayList<I> deadCharacters = new ArrayList<>();
         for(I character : characters){
             if(character.getHealth() == 0){
-                characters.remove(character);
+                deadCharacters.add(character);
             }
         }
+        characters.removeAll(deadCharacters);
     }
 
     public void removeAllDeadCharacters(){
@@ -50,5 +52,12 @@ public class Party {
         characters.addAll(casters);
         characters.addAll(healers);
         return characters;
+    }
+
+    private <I extends ICharacter> boolean doesPartContainCharacter(I character){
+        if(getCharacterList().contains(character)){
+            return true;
+        }
+        return false;
     }
 }

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f9d56cb-d1c7-4d9f-97a8-272351e71739" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Party.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Environment/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Environment/RoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Characters/PartyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Characters/PartyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -71,8 +71,8 @@
           <file leaf-file-name="Party.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Party.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+                <state relative-caret-position="157">
+                  <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#497#498#0" expanded="true" />
@@ -99,11 +99,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RoomTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="RoomTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/Environment/RoomTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="364">
-                  <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+                <state relative-caret-position="435">
+                  <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1534#1535#0" expanded="true" />
@@ -111,17 +111,17 @@
                     <element signature="e#1690#1691#0" expanded="true" />
                     <element signature="e#1720#1721#0" expanded="true" />
                     <element signature="e#1789#1790#0" expanded="true" />
-                    <element signature="e#1841#1842#0" expanded="true" />
+                    <element signature="e#1836#1837#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DwarfTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Characters/DwarfTest.java">
+          <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/Characters/PartyTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="990">
-                  <caret line="73" selection-start-line="73" selection-end-line="73" />
+                <state relative-caret-position="304">
+                  <caret line="68" column="37" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -482,20 +482,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Characters/Instances/Dwarf.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Instances/Cleric.java" />
         <option value="$PROJECT_DIR$/src/test/java/Characters/WizardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Environment/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Environment/Chest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Environment/RoomTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Characters/ClericTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Characters/DwarfTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Characters/PartyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Environment/Room.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Environment/Chest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Party.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Environment/RoomTest.java" />
       </list>
     </option>
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="All in FantasyLab_test" />
-    </enabled-run-configurations>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
@@ -895,27 +890,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChestTest - 2018.07.05 at 21h 40m 18s.xml">
-      <configuration name="ChestTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChestTest - 2018.07.05 at 21h 45m 11s.xml">
-      <configuration name="ChestTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest - 2018.07.05 at 22h 46m 58s.xml">
-      <configuration name="PartyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest - 2018.07.05 at 22h 48m 57s.xml">
-      <configuration name="PartyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest - 2018.07.06 at 08h 40m 29s.xml">
-      <configuration name="PartyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoomTest - 2018.07.06 at 08h 40m 43s.xml">
-      <configuration name="RoomTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoomTest - 2018.07.06 at 08h 43m 49s.xml">
-      <configuration name="RoomTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RoomTest - 2018.07.06 at 08h 44m 57s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
@@ -923,6 +897,27 @@
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_FantasyLab_test - 2018.07.06 at 09h 24m 18s.xml">
+      <configuration name="All in FantasyLab_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyLab_test - 2018.07.06 at 09h 25m 06s.xml">
+      <configuration name="All in FantasyLab_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyLab_test - 2018.07.06 at 09h 25m 27s.xml">
+      <configuration name="All in FantasyLab_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyLab_test - 2018.07.06 at 09h 27m 32s.xml">
+      <configuration name="All in FantasyLab_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyLab_test - 2018.07.06 at 09h 27m 42s.xml">
+      <configuration name="All in FantasyLab_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyLab_test - 2018.07.06 at 09h 31m 03s.xml">
+      <configuration name="All in FantasyLab_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyLab_test - 2018.07.06 at 09h 32m 15s.xml">
+      <configuration name="All in FantasyLab_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyLab_test - 2018.07.06 at 09h 32m 23s.xml">
       <configuration name="All in FantasyLab_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -943,7 +938,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.23172414" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3231018" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.3231018" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -995,7 +990,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1320,34 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Environment/EnvironmentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Characters/ClericTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Characters/DwarfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Characters/PartyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Environment/Chest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -1379,10 +1346,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Characters/DwarfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Characters/ClericTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Environment/EnvironmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Environment/RoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1836#1837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Characters/PartyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Party.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="157">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />
@@ -1391,22 +1402,6 @@
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#684#685#0" expanded="true" />
             <element signature="e#722#723#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Environment/RoomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1841#1842#0" expanded="true" />
           </folding>
         </state>
       </provider>

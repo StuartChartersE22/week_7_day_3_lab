@@ -59,4 +59,14 @@ public class PartyTest {
         assertEquals(3, party.getCharacterList().size());
 
     }
+
+    @Test
+    public void canRemoveDeadCharacters(){
+        party.setCasters(casters);
+        party.setMelees(melees);
+        party.setHealers(healers);
+        wizard.reduceHealth(100);
+        party.removeAllDeadCharacters();
+        assertEquals(2, party.getCharacterList().size());
+    }
 }
