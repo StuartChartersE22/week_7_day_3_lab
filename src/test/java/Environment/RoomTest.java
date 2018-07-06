@@ -14,6 +14,8 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static org.junit.Assert.assertEquals;
+
 public class RoomTest {
 
     private Room room;
@@ -49,4 +51,8 @@ public class RoomTest {
         room = new Room(chest, allysParty, enemysParty);
     }
 
+    @Test
+    public void canGetAllysParty(){
+        assertEquals(allysParty, room.getAllies());
+    }
 }

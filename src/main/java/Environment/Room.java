@@ -15,4 +15,9 @@ public class Room {
         playersTurn = true;
         this.chest = chest;
     }
+
+
+    public Party getAllies() {
+        return allysParty;
+    }
 }
