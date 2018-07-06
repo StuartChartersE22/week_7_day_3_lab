@@ -30,6 +30,20 @@ public class Party {
         this.healers = healers;
     }
 
+    private <I extends ICharacter> void removeDeadCharacters(ArrayList<I> characters){
+        for(I character : characters){
+            if(character.getHealth() == 0){
+                characters.remove(character);
+            }
+        }
+    }
+
+    public void removeAllDeadCharacters(){
+        removeDeadCharacters(melees);
+        removeDeadCharacters(casters);
+        removeDeadCharacters(healers);
+    }
+
     public ArrayList<ICharacter> getCharacterList(){
         ArrayList<ICharacter> characters = new ArrayList<>();
         characters.addAll(melees);

@@ -62,7 +62,7 @@ public class RoomTest {
     }
 
     @Test
-    public void canGetChest(){
+    public void canGetChest() {
         assertEquals(chest, room.getChest());
     }
 }

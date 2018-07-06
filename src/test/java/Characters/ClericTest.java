@@ -22,9 +22,10 @@ public class ClericTest {
 
     @Test
     public void heal() {
+        cleric2.reduceHealth(8);
         cleric.pickUpHealingItem(herb);
         cleric.healCharacter(herb, cleric2);
-        assertEquals(18, cleric2.getHealth());
+        assertEquals(10, cleric2.getHealth());
         assertEquals(0, cleric.getItems().size());
     }
 
@@ -47,8 +48,9 @@ public class ClericTest {
 
     @Test
     public void increaseHealth() {
+        cleric.reduceHealth(5);
         cleric.heal(5);
-        assertEquals(15, cleric.getHealth());
+        assertEquals(10, cleric.getHealth());
     }
 
     @Test
